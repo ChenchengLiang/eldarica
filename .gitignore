@@ -1,0 +1,9 @@
+
+project/build.properties
+target/*
+cc-parser/target/*
+project/target/*
+template-parser/target/*
+project/project/target*
+.bsp/sbt.json
+.idea/*

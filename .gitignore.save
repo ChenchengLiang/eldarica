@@ -1,0 +1,13 @@
+
+project/build.properties
+*.log
+*.java
+*.cache
+*.class
+*.properties
+*.MF
+*.jarName
+*.txt
+*.tokens
+*.stg
+/target
