@@ -139,7 +139,7 @@ object AbsReader {
  */
 class AbsReader(input : java.io.Reader) {
 
-  import SMTParser2InputAbsy.{SMTType, SMTInteger, SMTBool, SMTArray, SMTBitVec}
+  import SMTTypes.{SMTType, SMTInteger, SMTBool, SMTArray, SMTBitVec}
 
   private val printer = new PrettyPrinterNonStatic
 
