@@ -132,7 +132,7 @@ lazy val root = (project in file(".")).
     assembly / test := None,
 //
     libraryDependencies +=
-      "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.4",
+      "org.scala-lang.modules" %% "scala-parser-combinators" % "2.2.0",
 //
     libraryDependencies +=
       "net.sf.squirrel-sql.thirdparty-non-maven" % "java-cup" % "0.11a",
