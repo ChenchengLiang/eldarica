@@ -418,8 +418,10 @@ abstract class AbstractPrincessAPI extends PrincessAPI {
                          }).getOrElse(false))
       
       Console.withOut(interpolationFile) {
-        SMTLineariser(sortedFormulas, signature,
-                      "Eldarica interpolation query " + interpolationCount)
+        SMTLineariser.printWithDeclsSig(
+          formulas      = sortedFormulas,
+          signature     = signature,
+          benchmarkName = "Eldarica interpolation query " + interpolationCount)
       }
       interpolationFile.close
       interpolationCount = interpolationCount + 1
